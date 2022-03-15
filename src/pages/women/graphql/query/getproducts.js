@@ -11,6 +11,7 @@ query Query{
       prices {
         currency{
           label
+          symbol
         }
         amount
       }
