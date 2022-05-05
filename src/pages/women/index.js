@@ -22,6 +22,7 @@ export default class Women extends react.Component {
                   gallery={product.gallery}
                   name={product.name}
                   prices={product.prices}
+                  inStock={product.inStock}
                 />
                 </ProductCardContainer>
               ))}
